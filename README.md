@@ -10,7 +10,7 @@ for example:
 users:
 1. Farlenski - 
 2. BohdanBiriuk - 
-3. Vladus42321 - 
+3. Vladus42321 - Vladuslav Granovskyi
 4. RafinadR - 
 5. Andrewakiv - Andriy Danchyshyn 
 6. YevhenDuhin - 
