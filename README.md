@@ -8,7 +8,7 @@ for example:
 * `hw/hw03/lhalam`
 
 users:
-1. Farlenski - 
+1. Farlenski - Vasyliuk Vadym
 2. BohdanBiriuk - 
 3. Vladus42321 - Vladuslav Granovskyi
 4. RafinadR - 
