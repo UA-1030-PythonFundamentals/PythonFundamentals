@@ -14,9 +14,10 @@
 # print("end")
 from math import cos, sin, \
     tau, tan
+
 # a=1;c=1
 # b=23
-#sadfdfads
+# sadfdfads
 # ''
 # "" \
 # "dafsf" \
@@ -50,11 +51,11 @@ from math import cos, sin, \
 #
 # print(A, a)
 my_file = open("test.txt", "w")
-print((-1)**0.5)
+print((-1) ** 0.5)
 
-print(7/3, file=my_file)
-print(7//3)
-print(7%3)
+print(7 / 3, file=my_file)
+print(7 // 3)
+print(7 % 3)
 
-a != not b
-not a ==  b
+# a != not b
+# not a ==  b
