@@ -5,3 +5,4 @@ homework should be added to the appropriate directory `hw/hwXX/nickname`
 for example:
 * `hw/hw01/lhalam`
 * `hw/hw02/lhalam`
+* `hw/hw03/lhalam`
