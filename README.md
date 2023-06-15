@@ -17,6 +17,6 @@ users:
 7. vladimircity - 
 8. olegeng - 
 9. OlhaZhovnir - 
-10. oleg7177 - 
+10. oleg7177 - Oleg Kuziv
 11. ingenuity221 - 
 12. volnagPython - 
