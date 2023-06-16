@@ -9,7 +9,7 @@ for example:
 
 users:
 1. Farlenski - Vasyliuk Vadym
-2. BohdanBiriuk - 
+2. BohdanBiriuk - Biriuk Bohdan
 3. Vladus42321 - Vladuslav Granovskyi
 4. RafinadR - 
 5. Andrewakiv - Andriy Danchyshyn 
