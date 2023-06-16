@@ -14,7 +14,7 @@ users:
 4. RafinadR - 
 5. Andrewakiv - Andriy Danchyshyn 
 6. YevhenDuhin - 
-7. vladimircity - 
+7. vladimircity - Volodymyr Hryhorovych
 8. olegeng - Oleg Pavlish
 9. OlhaZhovnir - 
 10. oleg7177 - Oleg Kuziv
