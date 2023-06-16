@@ -11,7 +11,7 @@ users:
 1. Farlenski - Vasyliuk Vadym
 2. BohdanBiriuk - Biriuk Bohdan
 3. Vladus42321 - Vladuslav Granovskyi
-4. RafinadR - 
+4. RafinadR - Roman Veles'
 5. Andrewakiv - Andriy Danchyshyn 
 6. YevhenDuhin - 
 7. vladimircity - Volodymyr Hryhorovych
