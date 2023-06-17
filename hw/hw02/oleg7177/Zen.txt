@@ -1,1 +1,2 @@
-10.Errors should never pass silently.
+1.Beautiful is better than ugly.
+2.Explicit is better than implicit.
