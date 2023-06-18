@@ -18,5 +18,5 @@ users:
 8. olegeng - Oleg Pavlish 
 9. OlhaZhovnir - Olha Zhovnir
 10. oleg7177 - Oleg Kuziv
-11. ingenuity221 - 
+11. ingenuity221 - Roman Sirosh 
 12. volnagPython - Volodymyr Nahirniak
