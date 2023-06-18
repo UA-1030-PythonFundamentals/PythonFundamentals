@@ -8,15 +8,15 @@ for example:
 * `hw/hw03/lhalam`
 
 users:
-1. Farlenski - Vasyliuk Vadym
-2. BohdanBiriuk - Biriuk Bohdan
-3. Vladus42321 - Vladuslav Granovskyi
-4. RafinadR - Roman Veles'
-5. Andrewakiv - Andriy Danchyshyn 
-6. YevhenDuhin - 
-7. vladimircity - Volodymyr Hryhorovych
-8. olegeng - Oleg Pavlish 
-9. OlhaZhovnir - Olha Zhovnir
-10. oleg7177 - Oleg Kuziv
-11. ingenuity221 - Roman Sirosh 
-12. volnagPython - Volodymyr Nahirniak
+1. Farlenski - 
+2. BohdanBiriuk - 
+3. Vladus42321 - 
+4. RafinadR - 
+5. Andrewakiv - 
+6. YevhenDuhin - Yevhen Duhin
+7. vladimircity - 
+8. olegeng - 
+9. OlhaZhovnir - 
+10. oleg7177 - 
+11. zingenuity221 - 
+12. volnagPython - 
