@@ -13,7 +13,7 @@ users:
 3. Vladus42321 - 
 4. RafinadR - 
 5. Andrewakiv - 
-6. YevhenDuhin - 
+6. YevhenDuhin - Yevhen Duhin
 7. vladimircity - 
 8. olegeng - 
 9. OlhaZhovnir - 
