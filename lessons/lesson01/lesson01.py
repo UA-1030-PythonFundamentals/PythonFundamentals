@@ -12,9 +12,6 @@
 #     print(i, end=" => ")
 #     print(i**2)
 # print("end")
-from math import cos, sin, \
-    tau, tan
-
 # a=1;c=1
 # b=23
 # sadfdfads
