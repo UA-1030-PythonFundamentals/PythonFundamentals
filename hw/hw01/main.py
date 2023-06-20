@@ -1,7 +1,28 @@
-a = input("What is your name?: ")
-b = input("How old are you?: ")
-c = input("where do you live?: ")
+A = float(input("First number: "))                
+B = float(input("Second number: "))
+operation = input("Operation (+, -, *, /, **, //, %): ")
+result = None
 
-print("Hi! Nice to meet you,", a)
-print("Your age is,", b)
-print("You live in,", c)
+if operation == "+":
+    result = (A + B)
+    print(result)
+elif operation == "-":
+    result = (A - B)
+    print(result)
+elif operation == "*":
+    result = (A * B)
+    print(result)
+elif operation == "/":
+    result = (A / B)
+    print(result)
+elif operation == "**":
+    result = (A ** B)
+    print(result)
+elif operation == "//":
+    result = (A // B)
+    print(result)
+elif operation == "%":
+    result = (A % B)
+    print(result)
+else:
+    print("Choose another operation")
