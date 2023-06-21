@@ -1,4 +1,5 @@
-philosophy_of_python = '''The Zen of Python, by Tim Peters
+philosophy_of_python = '''
+The Zen of Python, by Tim Peters
 1.Beautiful is better than ugly.
 2.Explicit is better than implicit.
 3.Simple is better than complex.
@@ -54,7 +55,8 @@ philosophy_of_python = '''The Zen of Python, by Tim Peters
 53.Although never is often better than *right* now.
 54.If the implementation is hard to explain, it's a bad idea.
 55.If the implementation is easy to explain, it may be a good idea.
-56.Namespaces are one honking great idea -- let's do more of those!'''
+56.Namespaces are one honking great idea -- let's do more of those!
+'''
 
 word = len(philosophy_of_python.split())
 gap = philosophy_of_python.count(" ")
@@ -73,3 +75,4 @@ print("Word count 'never':", never)
 print("Word count 'is':", symbol_is)
 print("Text in upper case:", philosophy_upper)
 print(philosophy_of_python.replace('i', '&'))
+

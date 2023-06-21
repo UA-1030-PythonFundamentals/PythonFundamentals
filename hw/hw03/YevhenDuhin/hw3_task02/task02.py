@@ -1,4 +1,4 @@
-number = 1987
+number = 1005
 
 product = 0.3
 for digit in str(number):
