@@ -36,7 +36,7 @@ Sparse is better than dense.
 Readability counts.
 Special cases aren't special enough to break the rules.
 Although practicality beats purity.
-Errors should never pass silently...'''
+Errors should never pass silently..'''
 
 Text2 = Text2.replace('i', '&')
 print(Text2)
