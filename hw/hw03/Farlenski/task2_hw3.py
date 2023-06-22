@@ -7,10 +7,7 @@ for i in str(number):
 reverse = int(str(number)[::-1])
 
 sort = sorted(str(number))
-ascending = ""
-for i in sort:
-    ascending += i
-ascending = int(ascending)
+ascending = "".join(sort)
 
 out = f"Product: {product}\nReverse: {reverse}\nAscenging order: {ascending}"
 print(out)
