@@ -13,7 +13,7 @@ print(S,"- Here is Zen in capital letters.\n")
     #Checking the specific line
 lin1 = input('''Zen Phylosophy text has 56 lines.
 Which line are you interested in? \n''')
-
+    
 i = s.index(lin1)
 I = int(lin1)
 lin2 = I + 1
