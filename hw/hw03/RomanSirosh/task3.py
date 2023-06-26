@@ -1,3 +1,3 @@
 a,b=3,5
-(a,b)=(b,a)
+a,b=b,a
 print (a,b)
