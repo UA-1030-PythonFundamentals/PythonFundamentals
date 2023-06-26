@@ -47,7 +47,8 @@
 #     pass
 #
 # print(A, a)
-##print((-1) ** 0.5)
+my_file = open("test.txt", "w")
+print((-1) ** 0.5)
 
 print(7 / 3, file=my_file)
 print(7 // 3)
