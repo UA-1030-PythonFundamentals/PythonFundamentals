@@ -13,10 +13,14 @@ users:
 3. Vladus42321 - 
 4. RafinadR - 
 5. Andrewakiv - 
-6. YevhenDuhin - 
+6. YevhenDuhin - Yevhen Duhin
 7. vladimircity - 
 8. olegeng - 
 9. OlhaZhovnir - 
 10. oleg7177 - 
 11. ingenuity221 - 
-12. volnagPython - 
+12. volnagPython - Volodymyr Nahirniak
+13. Alexaand11031996 -
+14. Bugaychuk -
+15. btr0001 - 
+16. nshmahlo - 
