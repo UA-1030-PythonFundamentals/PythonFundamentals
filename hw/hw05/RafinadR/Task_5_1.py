@@ -7,7 +7,7 @@ while len(s) < 5:
 print("You entered: ", s)
 for i in range(len(s)):
                 
-        s[i] = float(s[i])  # кожному значенню в списку змінюємо тип
+        s[i] = float(s[i])
                 
       
         
