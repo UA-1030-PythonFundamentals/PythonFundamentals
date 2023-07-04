@@ -1,7 +1,7 @@
 ##Task2. Write a script that checks the login that the user enters.
 ##If the login is "First", then greet the users. If the login is
 ##different, send an error message.
-##(need to use loop while) --  HW10 -- July 5, 2023
+##(need to use loop while) --  HW06 PT10 -- July 5, 2023
 print(70*"*")
 
 num = input("Please enter your name:\n")

@@ -1,7 +1,7 @@
 ##Task1. In the range from 1 to 10 determine
 ##• even numbers that are divisible by 2,
 ##• odd numbers, which are divisible by 3,
-##• numbers that are not divisible by 2 and 3.--HW9-- July 4, 2023
+##• numbers that are not divisible by 2 and 3.--HW6 PT9-- July 4, 2023
 
 num = list(range(1,11,1))
 odd_num = list()
