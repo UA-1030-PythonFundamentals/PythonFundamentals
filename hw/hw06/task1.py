@@ -14,6 +14,6 @@ for i in range(1, 11):
     else:
         not_divisible_by_2_3.append(i)
 
-print('divisible by 2:', *divisible_by_2, sep=',')
+print('divisible by 2:', divisible_by_2)
 print('divisible by 3:', divisible_by_3)
 print('not divisible by 2 and 3:', not_divisible_by_2_3)
