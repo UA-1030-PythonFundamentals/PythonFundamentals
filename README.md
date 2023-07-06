@@ -11,7 +11,7 @@ users:
 1. Farlenski - 
 2. BohdanBiriuk - 
 3. Vladus42321 - 
-4. RafinadR - 
+4. RafinadR - Roma Veles'
 5. Andrewakiv - 
 6. YevhenDuhin - Yevhen Duhin
 7. vladimircity - 
@@ -24,3 +24,4 @@ users:
 14. Bugaychuk -
 15. btr0001 - Тарас Бойчук
 16. nshmahlo - 
+17. AnaDob - Anastasiia Dobrosynets
