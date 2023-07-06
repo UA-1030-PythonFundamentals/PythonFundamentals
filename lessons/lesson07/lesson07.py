@@ -322,4 +322,10 @@
 # git pull origin main
 #
 #
-# git pull origin/main
+# # git pull origin/main
+# print(dir(list))
+#
+#
+# l = [1,2,4]
+# l.append(1,2)
+# list.append(l, 1,2)
