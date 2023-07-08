@@ -51,3 +51,5 @@ def vol_shell(r1,r2):
     PI = 3.14
     return round(4/3*PI*(r1**3-r2**3),2)
 print(vol_shell(4,3))
+print(vol_shell(9,7))
+
