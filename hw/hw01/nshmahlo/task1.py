@@ -1,0 +1,15 @@
+# task1
+name = input("Enter your name - ")
+age = input("Enter your age - ")
+city = input('Enter your city - ')
+print('Your name is ', name, '\nYour age is ', age, '\nYour city is ', city)
+# task2
+A = int(input('Enter A '))
+B = int(input('Enter B '))
+print('A + B = ',A+B)
+print('A - B = ',A-B)
+print('A * B = ',A*B)
+print('A / B = ',A/B)
+print('A ** B = ',A**B)
+print('A // B = ',A//B)
+print('A % B = ',A%B)
