@@ -1,7 +1,7 @@
 ##Task2. Write a program that calculates the area of a rectangle,
 ##triangle and circle
 ##(write three functions to calculate the area, and call them in the
-##main program depending on the user's choice). -- July 7,2023
+##main program depending on the user's choice). --HW07-- July 7,2023
 
 print(70*"*")
 shape = input('''Area of which geometrical figure you'd like to calculate?
