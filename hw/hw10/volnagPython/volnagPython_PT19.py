@@ -3,7 +3,7 @@
 ##of rectangle.-- HW10 -- PT19-- July 19, 2023
 
 ###########################----Base class-----############################# 
-class polygon:
+class Polygon:
 
     
     def __init__(self,shape,side1,side2,side3,side4,side5): #Initializing a class
@@ -25,7 +25,7 @@ class polygon:
 ###########################----Interited class-----#####################################
         
 
-class rectangle(polygon):
+class Rectangle(Polygon):
 
     
        def __init__(self,shape,side1,side2): #Initializing a class
@@ -43,7 +43,7 @@ class rectangle(polygon):
         
 ###########################-----Checking results---#####################################
 
-r = rectangle("Rectangle",15,19)    # Object with attributes i.e. "shape,side etc."
+r = Rectangle("Rectangle",15,19)    # Object with attributes i.e. "shape,side etc."
 print(r)
 print(r.side1)
 print(r.side2)
