@@ -139,5 +139,3 @@ print(a)
 # b = B()
 b = A.B()
 print(b)
-
-fk
