@@ -55,7 +55,7 @@ scores = 0
 # Функція яка створює ворога, завантаження зображення в форматі PNG
 # Масштаб ворога, генерація випадкового значення для положення та швидкості ворога
 def create_enemy():
-    enemy = pygame.transform.scale(pygame.image.load('enemy.png').convert_alpha(),(80, 40))
+    enemy = pygame.transform.scale(pygame.image.load('enemy.png').convert_alpha(), (80, 40))
     enemy_rect = pygame.Rect(WIDTH, random.randint(0, HEIGHT), *enemy.get_size())
     enemy_speed = random.randint(2, 5)
     return [enemy, enemy_rect, enemy_speed]
@@ -63,7 +63,7 @@ def create_enemy():
 # Функція яка створює бонус, завантаження зображення в форматі PNG
 # Масштаб бонусу, генерація випадкового значення для положення та швидкості бонусу
 def create_bonus():
-    bonus = pygame.transform.scale(pygame.image.load('bonus.png').convert_alpha(),(120, 120))
+    bonus = pygame.transform.scale(pygame.image.load('bonus.png').convert_alpha(), (120, 120))
     bonus_rect = pygame.Rect(random.randint(0, WIDTH - bonus.get_width()), - bonus.get_height(), *bonus.get_size())
     bonus_speed = random.randint(1, 2)
     return [bonus, bonus_rect, bonus_speed]
