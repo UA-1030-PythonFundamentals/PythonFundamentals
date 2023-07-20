@@ -14,10 +14,12 @@ class Human:
         return f"This is a {self.spieces} named {self.name}."
         
     def greets(self):
-        print(f"Hello {self.name}!")
+        
+        return f"Hello {self.name}!"
 
     def message(self):
-        print(f"How are you doing {self.name.upper()}?")
+        
+        return f"How are you doing {self.name.upper()}?"
         
 
 #####################----------Checking--------#######################

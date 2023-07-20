@@ -15,10 +15,12 @@ class Polygon:
         self.side4 = side4
         
     def __str__(self):
+
         return f"{self.shape} with many sides "
 
     def geometry(self):             #Defining methods or functions in this class#
-        print("This is a " + self.shape.upper())
+
+        return f"This is a  + self.shape.upper()"
 
 
  
@@ -34,11 +36,13 @@ class Rectangle(Polygon):
            self.side2 = side2
 
        def __str__(self):
+
            return f"{self.shape} with two sides "
 
        def area(self):
-           a = self.side1*self.side2
-           print(f"The area of {self.shape} is {a} cm^2")
+
+           a = self.side1 * self.side2
+           return f"The area of {self.shape} is {a} cm^2"
 
         
 ###########################-----Checking results---#####################################
