@@ -4,13 +4,17 @@
 #--------HW10--PT19b----July 27, 2023---
 
 class Car:
+    ''' This is  a Python class for all available cars'''
+
+    
     def __init__(self,name,kind,model,transmission):
         self.name = name
         self.kind = kind
         self.model = model
         self.transmission = transmission
+        
     def __str__(self):
-        return "-Car from inventory-"
+        return "-- Car from inventory --"
 
     def start(self):
         start = input("Did it start already?  Y/N  :")
@@ -18,6 +22,7 @@ class Car:
             print("---It started accordingly.---")
         else:
             print("---It didn't start accordingly.---")
+            
     def stop(self):
         stop = input("Did it stop properly?  Y/N  :")
         if stop == "Y":
@@ -25,7 +30,7 @@ class Car:
         else:
             print("---It didn't stop properly.---")
             
-##############----Cheking results-----######################   
+##############----Checking results-----######################   
 c = Car("Ford","truck","F150","manual")
 print(c)
 print(c.name)
