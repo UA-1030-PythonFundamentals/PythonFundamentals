@@ -18,7 +18,7 @@ class Polygon:
         return f"{self.shape} with many sides "
 
     def geometry(self):             #Defining methods or functions in this class#
-        print("This is a " + self.shape.upper())
+        return "This is a " + self.shape.upper()
 
 
  
@@ -38,7 +38,7 @@ class Rectangle(Polygon):
 
        def area(self):
            a = self.side1*self.side2
-           print(f"The area of {self.shape} is {a} cm^2")
+           return f"The area of {self.shape} is {a} cm^2"
 
         
 ###########################-----Checking results---#####################################
