@@ -36,3 +36,6 @@ for sel in Selected:
     else:
         print("The shape is not selected correctly")
         break
+
+
+

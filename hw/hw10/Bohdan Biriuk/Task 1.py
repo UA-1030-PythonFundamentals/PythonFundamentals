@@ -25,3 +25,6 @@ test = Rectangle()
 test.input_sides()
 test.disp_Sides()
 test.find_area()
+
+
+

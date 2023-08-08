@@ -49,3 +49,5 @@ while run:
                                               HEIGHT_RECTANGLE])
     pygame.display.update()
     clock.tick(FPS)
+
+
