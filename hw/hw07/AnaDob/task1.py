@@ -1,3 +1,4 @@
+
 def greeting(name):
     if name.lower() == "johnny":
         return f"Hello, dearJ {name.capitalize()}!"
@@ -11,3 +12,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
