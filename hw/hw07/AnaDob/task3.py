@@ -1,3 +1,4 @@
+
 def count_characters(input_string):
     char_count = {}
     for char in input_string:
@@ -11,3 +12,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -1,5 +1,6 @@
 import math
 
+
 def calculate_rectangle_area(length, width):
     """
     Calculates the area of a rectangle.
@@ -65,3 +66,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

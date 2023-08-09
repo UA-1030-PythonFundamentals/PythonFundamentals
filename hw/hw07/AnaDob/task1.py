@@ -1,14 +1,15 @@
-def find_largest_number(num1, num2):
-    """
-    Returns the largest number among two input numbers.
 
-    Parameters:
-        num1 (int or float): The first number.
-        num2 (int or float): The second number.
+def greeting(name):
+    if name.lower() == "johnny":
+        return f"Hello, dearJ {name.capitalize()}!"
+    else:
+        return f"Hello, {name.capitalize()}!"
 
-    Returns:
-        int or float: The largest number between num1 and num2.
-    """
-    return max(num1, num2)
-result = find_largest_number(5, 10)
-print(result)  
+def main():
+    user_name = input("Enter your name: ")
+    result = greeting(user_name)
+    print(result)
+
+if __name__ == "__main__":
+    main()
+
