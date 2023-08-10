@@ -12,10 +12,10 @@ users:
 2. BohdanBiriuk - 
 3. Vladus42321 - 
 4. <code style="color: Green"> RafinadR - Roma Veles'</code>
-5. Andrewakiv - 
+5. Andrewakiv - Andriy Danchyshyn 
 6. <code style="color: Green"> YevhenDuhin - Yevhen Duhin</code>
 7. vladimircity - 
-8. olegeng - 
+8. <code style="color: Green"> olegeng - Pavlish Oleg</code>
 9. OlhaZhovnir - 
 10. oleg7177 - 
 11. ingenuity221 - 

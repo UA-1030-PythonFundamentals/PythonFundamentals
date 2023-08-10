@@ -29,10 +29,7 @@ def get_weather():
     mgr = owm.weather_manager()
 
     city = entry_field.get()
-#   print("\n",city,"\n")
-#
-#
-    # Search for current weather in London (Great Britain) and get details
+
     observation = mgr.weather_at_place(city)
     w = observation.weather
 #
