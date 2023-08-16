@@ -1,0 +1,49 @@
+===Name===	->	назва розділу
+===some text	->	дії, що необхідно виконати
+=====		->	логічне закінчення (розділу або файлу), відноситься до контексту
+у вас з першого кроку має бути папка "virtenv" - вона персональна для кожного проекту, 
+тому в цих матеріалах вона відображена не буде
+
+
+===Step 3 ====
+=== внесіть зміни в файл - flask_app/app.py
+
+=====Folder structure:
+/application
+    /__init__.py
+    /templates
+        /index.html
+	/static
+		/style.css
+=====
+
+===flask_blog/app.py
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+
+def index():
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run()(debug=True, port=5001)
+=====
+
+===flask_blog/templates/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}" />
+    <title>TravelBlog</title>
+</head>
+<body>
+   <h1>Welcome to TravelBlog</h1>
+</body>
+</html>
+=====
+
+
+
