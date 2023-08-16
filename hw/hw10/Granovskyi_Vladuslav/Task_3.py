@@ -24,7 +24,6 @@ class Employee:
         print(f"Module name: {Employee.__module__}")
         print(f"Documentation: {Employee.__doc__}\n")
 
-
 emp1 = Employee('Villson', 2300)
 emp1.information()
 emp1.emp_information()

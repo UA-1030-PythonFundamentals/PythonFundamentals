@@ -14,7 +14,6 @@ class Human:
 
 
 h = Human("Vlad")
-
 h.Hello()
 h.information()
 h.arbitrary('message')
