@@ -9,10 +9,10 @@ for example:
 
 users:
 1. Farlenski - 
-2. BohdanBiriuk - Biriuk Bohdan 
+2. <code style="color: Green">BohdanBiriuk - Biriuk Bohdan </code>
 3. Vladus42321 - 
 4. <code style="color: Green"> RafinadR - Roma Veles'</code>
-5. Andrewakiv - Andriy Danchyshyn 
+5. <code style="color: Green">Andrewakiv - Andriy Danchyshyn </code>
 6. <code style="color: Green"> YevhenDuhin - Yevhen Duhin</code>
 7. vladimircity - 
 8. <code style="color: Green"> olegeng - Pavlish Oleg</code>
