@@ -21,7 +21,7 @@ def dvs(n1,n2):
     return f
 
 def sbt(n1,n2):
-    '''Calculates subtration of two numbers'''
+    '''Calculates subtraction of two numbers'''
     d = n1-n2
     return d
 
