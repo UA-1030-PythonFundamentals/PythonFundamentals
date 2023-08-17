@@ -1,0 +1,97 @@
+===Name===	->	назва розділу
+===some text	->	дії, що необхідно виконати
+=====		->	логічне закінчення (розділу або файлу), відноситься до контексту
+у вас з першого кроку має бути папка "virtenv" - вона персональна для кожного проекту, 
+тому в цих матеріалах вона відображена не буде
+
+
+
+===Step 4 — Робота з БД===
+Створіть та відкрийте файл із ім'ям schema.sql всередині директорії travelblog 
+
+===travelblog/schema.sql
+DROP TABLE IF EXISTS posts;
+
+CREATE TABLE posts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    title TEXT NOT NULL,
+    content TEXT NOT NULL
+);
+=====
+
+
+===travelblog/init_db.py
+import sqlite3
+
+connection = sqlite3.connect('database.db')
+
+
+with open('schema.sql') as f:
+    connection.executescript(f.read())
+
+cur = connection.cursor()
+
+cur.execute("INSERT INTO posts (title, content) VALUES (?, ?)",
+            ('First Post', 'Content for the first post')
+            )
+
+cur.execute("INSERT INTO posts (title, content) VALUES (?, ?)",
+            ('Second Post', 'Content for the second post')
+            )
+
+connection.commit()
+connection.close()
+=====
+
+py init_db.py
+
+Після завершення виконання файлу новий файл з ім'ям database.db з'явиться у директорії 
+flask_blog. Це означає, що ви успішно налаштували базу даних.
+
+
+
+
+===Step 5 - Displaying All Posts===
+
+
+===travelblog/app.py
+
+import sqlite3
+
+from flask import Flask, render_template
+
+def get_db_connection():
+    conn = sqlite3.connect('database.db')
+    conn.row_factory = sqlite3.Row
+    return conn
+
+
+@app.route('/')
+def index():
+    conn = get_db_connection()
+    posts = conn.execute('SELECT * FROM posts').fetchall()
+    conn.close()
+    return render_template('index.html', posts=posts)
+
+=====
+
+===travelblog/templates/index.html
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Welcome to TravelBlog {% endblock %}</h1>
+    {% for post in posts %}
+        <a href="#">
+            <h2>{{ post['title'] }}</h2>
+        </a>
+        <span class="badge badge-primary">{{ post['created'] }}</span>
+        <hr>
+    {% endfor %}
+{% endblock %}
+=====
+
+
+
+
+
