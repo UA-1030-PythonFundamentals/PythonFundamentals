@@ -9,19 +9,19 @@ for example:
 
 users:
 1. Farlenski - 
-2. <code style="color: Green">BohdanBiriuk - Biriuk Bohdan </code>
+2. <code style="color: Green">BohdanBiriuk - Biriuk Bohdan</code>
 3. Vladus42321 - 
-4. <code style="color: Green"> RafinadR - Roma Veles'</code>
-5. <code style="color: Green">Andrewakiv - Andriy Danchyshyn </code>
-6. <code style="color: Green"> YevhenDuhin - Yevhen Duhin</code>
+4. <code style="color: Green">RafinadR - Roma Veles'</code>
+5. <code style="color: Green">Andrewakiv - Andriy Danchyshyn</code>
+6. <code style="color: Green">YevhenDuhin - Yevhen Duhin</code>
 7. vladimircity - 
-8. <code style="color: Green"> olegeng - Pavlish Oleg</code>
-9. OlhaZhovnir - 
+8. <code style="color: Green">olegeng - Pavlish Oleg</code>
+9. <code style="color: Green">OlhaZhovnir - Olha Zhovnir</code>
 10. oleg7177 - 
 11. ingenuity221 - 
-12. <code style="color: Green"> volnagPython - Volodymyr Nahirniak</code>
+12. <code style="color: Green">volnagPython - Volodymyr Nahirniak</code>
 13. Alexaand11031996 -
 14. Bugaychuk -
-15. <code style="color: Green"> btr0001 - Тарас Бойчук</code>
+15. <code style="color: Green">btr0001 - Тарас Бойчук</code>
 16. nshmahlo - 
-17. <code style="color: Green"> AnaDob - Anastasiia Dobrosynets </code>
+17. <code style="color: Green">AnaDob - Anastasiia Dobrosynets</code>
