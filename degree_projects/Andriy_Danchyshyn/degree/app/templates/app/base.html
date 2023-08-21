@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static 'app/css/styles.css' %}" rel="stylesheet">
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="left" valign="top">
+                {% block category %}
+                {% endblock %}
+            </td>
+            <td class="right" valign="top">
+                {% block content %}
+                {% endblock %}
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

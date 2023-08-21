@@ -1,0 +1,46 @@
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #25274D;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.detailed ul li,
+.categories,
+.posts ul li {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  margin-right: 70px;
+  color: #AAABB8;
+  background-color: #464866;
+  border-radius: 1em;
+  margin-bottom: 10px;
+}
+
+.categories a:link,
+.posts a:link {
+  color: white;
+}
+.categories a:visited,
+.posts a:visited {
+  color: #fdc073;
+}
+
+.left {
+  padding-top: 20px;
+  width: 30%;
+}
+.right {
+  width: 60%;
+}
+
+.detailed ul li {
+  margin-right: 70px;
+  padding-right: 200px;
+  margin-left: -100px;
+}
+
+
