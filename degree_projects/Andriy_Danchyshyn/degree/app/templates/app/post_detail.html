@@ -1,0 +1,27 @@
+{% extends 'app/base.html' %}
+
+{% block title %}Detail{% endblock %}
+
+{% block category %}
+    {% for c in cats %}
+        <div class="categories">
+            <ul>
+                <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></li>
+            </ul>
+        </div>
+    {% endfor %}
+{% endblock %}
+
+{% block content %}
+    <div class="detailed">
+        <ul>
+            <li>
+                <h2>{{ post.title }}</h2>
+            </li>
+            <li>
+                <h5 class="post-date">{{ post.updated|date:"d-m-Y H:i" }}</h5>
+                <p>{{ post.body }}</p>
+            </li>
+        </ul>
+    </div>
+{% endblock %}

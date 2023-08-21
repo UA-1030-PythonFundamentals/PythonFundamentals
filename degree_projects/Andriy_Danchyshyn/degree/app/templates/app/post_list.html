@@ -1,0 +1,27 @@
+{% extends 'app/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block category %}
+    {% for c in cats %}
+        <div class="categories">
+            <ul>
+                <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></li>
+            </ul>
+        </div>
+    {% endfor %}
+{% endblock %}
+
+{% block content %}
+    {% for post in posts %}
+        <div class="posts">
+            <ul>
+                <li>
+                    <h5 class="date-post">{{ post.updated|date:"d-m-Y H:i" }}</h5>
+                    <h1><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h1>
+                    {{post.body|linebreaks|truncatewords:50}}
+                </li>
+            </ul>
+        </div>
+    {% endfor %}
+{% endblock %}
