@@ -1,71 +1,76 @@
-##Annual periods for all star signs.
+##Dates for star signs.
 
 def zod(month_in, date_in):
     '''Classification of all star signs'''
 
-
+    global sign
+    sign = None
+    
     if month_in == "Ma" and date_in in range(22,32):
-        sign = "Aries"    
+        sign = "Овен"
     elif month_in == "A" and date_in in range(1,20):
-        sign = "Aries"
+        sign = "Овен"
 
     elif month_in == "A" and date_in in range(20,31):
-        sign = "Taurus"
+        sign = "Телець"
     elif month_in == "My" and date_in in range(1,21):
-        sign = "Taurus"
+        sign = "Телець"
 
     elif month_in == "My" and date_in in range(21,32):
-        sign = "Gemini"
+        sign = "Близнюки"
     elif month_in == "Ju" and date_in in range(1,21):
-        sign = "Gemini"
+        sign = "Близнюки"
 
     elif month_in == "Ju" and date_in in range(21,32):
-        sign = "Cancer"
+        sign = "Рак"
     elif month_in == "Jy" and date_in in range(1,23):
-        sign = "Cancer"
+        sign = "Рак"
 
     elif month_in == "Jy" and date_in in range(23,32):
-        sign = "Leo"    
+        sign = "Лев"
     elif month_in == "Ag" and date_in in range(1,23):
-        sign = "Leo"
+        sign = "Лев"
 
     elif month_in == "Ag" and date_in in range(23,32):
-        sign = "Virgo"    
+        sign = "Діва"
     elif month_in == "S" and date_in in range(1,23):
-        sign = "Virgo"
+        sign = "Діва"
         
     elif month_in == "S" and date_in in range(23,31):
-        sign = "Libra"
+        sign = "Терези"
     elif month_in == "O" and date_in in range(1,23):
-        sign = "Libra"
+        sign = "Терези"
     
     elif month_in == "O" and date_in in range(23,32):
-        sign = "Scorpio"
+        sign = "Скорпіон"
     elif month_in == "N" and date_in in range(1,22):
-        sign = "Scorpio"
+        sign = "Скорпіон"
 
     elif month_in == "N" and date_in in range(22,31):
-        sign = "Sagittarius"
+        sign = "Змієносець"
     elif month_in == "D" and date_in in range(1,22):
-        sign = "Sagittarius"
+        sign = "Змієносець"
         
     elif month_in == "J" and date_in in range(1,20):
-        sign = "Capricorn"
+        sign = "Козоріг"
     elif month_in == "D" and date_in in range(22,32):
-        sign = "Capricorn"
+        sign = "Козоріг"
         
     elif month_in == "J" and date_in in range(20,32):
-        sign = "Aquarius"
+        sign = "Водолій "
     elif month_in == "F" and date_in in range(1,19):
-        sign = "Aquarius"
+        sign = "Водолій "
         
     elif month_in == "F" and date_in in range(20,30):
-        sign = "Pisces"    
+        sign = "Риби"
     elif month_in == "Ma" and date_in in range(1,21):
-        sign = "Pisces"
+        sign = "Риби"
+    elif sign == None:
+        sign = "Будь-ласка, введіть правильну дату..."
     return sign
 
-
+##zod("F",32)
+##print(sign)
 ##Aries star sign dates: March 21 – April 19
 ##Taurus star sign dates: April 20 – May 20
 ##Gemini star sign dates: May 21 – June 20
