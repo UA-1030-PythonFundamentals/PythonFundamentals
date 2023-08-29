@@ -1,68 +1,76 @@
-##Annual periods for all star signs.
+##Dates for star signs.
 
 def zod(month_in, date_in):
     '''Classification of all star signs'''
 
+    global sign
+    sign = None
+    mlist=["Січень", "Лютий", "Березень", "Квітень",
+            "Травень","Червень","Липень","Серпень",
+            "Вересень","Жовтень","Листопад","Грудень"]
 
-    if month_in == "Ma" and date_in in range(22,32):
-        sign = "Aries"    
-    elif month_in == "A" and date_in in range(1,20):
-        sign = "Aries"
-
-    elif month_in == "A" and date_in in range(20,31):
-        sign = "Taurus"
-    elif month_in == "My" and date_in in range(1,21):
-        sign = "Taurus"
-
-    elif month_in == "My" and date_in in range(21,32):
-        sign = "Gemini"
-    elif month_in == "Ju" and date_in in range(1,21):
-        sign = "Gemini"
-
-    elif month_in == "Ju" and date_in in range(21,32):
-        sign = "Cancer"
-    elif month_in == "Jy" and date_in in range(1,23):
-        sign = "Cancer"
-
-    elif month_in == "Jy" and date_in in range(23,32):
-        sign = "Leo"    
-    elif month_in == "Ag" and date_in in range(1,23):
-        sign = "Leo"
-
-    elif month_in == "Ag" and date_in in range(23,32):
-        sign = "Virgo"    
-    elif month_in == "S" and date_in in range(1,23):
-        sign = "Virgo"
-        
-    elif month_in == "S" and date_in in range(23,31):
-        sign = "Libra"
-    elif month_in == "O" and date_in in range(1,23):
-        sign = "Libra"
     
-    elif month_in == "O" and date_in in range(23,32):
-        sign = "Scorpio"
-    elif month_in == "N" and date_in in range(1,22):
-        sign = "Scorpio"
+    if month_in == "Березень" and date_in in range(22,32):
+        sign = "Овен"
+    elif month_in == "Квітень" and date_in in range(1,20):
+        sign = "Овен"
 
-    elif month_in == "N" and date_in in range(22,31):
-        sign = "Sagittarius"
-    elif month_in == "D" and date_in in range(1,22):
-        sign = "Sagittarius"
+    elif month_in == "Квітень" and date_in in range(20,31):
+        sign = "Телець"
+    elif month_in == "Травень" and date_in in range(1,21):
+        sign = "Телець"
+
+    elif month_in == "Травень" and date_in in range(21,32):
+        sign = "Близнюки"
+    elif month_in == "Червень" and date_in in range(1,21):
+        sign = "Близнюки"
+
+    elif month_in == "Червень" and date_in in range(21,31):
+        sign = "Рак"
+    elif month_in == "Липень" and date_in in range(1,23):
+        sign = "Рак"
+
+    elif month_in == "Липень" and date_in in range(23,32):
+        sign = "Лев"
+    elif month_in == "Серпень" and date_in in range(1,23):
+        sign = "Лев"
+
+    elif month_in == "Серпень" and date_in in range(23,32):
+        sign = "Діва"
+    elif month_in == "Вересень" and date_in in range(1,23):
+        sign = "Діва"
         
-    elif month_in == "J" and date_in in range(1,20):
-        sign = "Capricorn"
-    elif month_in == "D" and date_in in range(22,32):
-        sign = "Capricorn"
+    elif month_in == "Вересень" and date_in in range(23,31):
+        sign = "Терези"
+    elif month_in == "Жовтень" and date_in in range(1,23):
+        sign = "Терези"
+    
+    elif month_in == "Жовтень" and date_in in range(23,32):
+        sign = "Скорпіон"
+    elif month_in == "Листопад" and date_in in range(1,22):
+        sign = "Скорпіон"
+
+    elif month_in == "Листопад" and date_in in range(22,31):
+        sign = "Змієносець"
+    elif month_in == "Грудень" and date_in in range(1,22):
+        sign = "Змієносець"
         
-    elif month_in == "J" and date_in in range(20,32):
-        sign = "Aquarius"
-    elif month_in == "F" and date_in in range(1,19):
-        sign = "Aquarius"
+    elif month_in == "Січень" and date_in in range(1,20):
+        sign = "Козоріг"
+    elif month_in == "Грудень" and date_in in range(22,32):
+        sign = "Козоріг"
         
-    elif month_in == "F" and date_in in range(20,30):
-        sign = "Pisces"    
-    elif month_in == "Ma" and date_in in range(1,21):
-        sign = "Pisces"
+    elif month_in == "Січень" and date_in in range(20,32):
+        sign = "Водолій"
+    elif month_in == "Лютий" and date_in in range(1,19):
+        sign = "Водолій"
+        
+    elif month_in == "Лютий" and date_in in range(20,30):
+        sign = "Риби"
+    elif month_in == "Березень" and date_in in range(1,21):
+        sign = "Риби"
+    elif sign == None:
+        sign = "Будь-ласка, введіть правильну дату..."
     return sign
 
 
@@ -79,5 +87,5 @@ def zod(month_in, date_in):
 ##Aquarius star sign dates: January 20 – February 18
 ##Pisces star sign dates: February 19 – March 20
 
-
+#--August 29, 2023 --VN
 
